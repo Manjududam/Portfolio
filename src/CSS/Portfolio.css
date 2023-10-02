@@ -1,0 +1,22 @@
+.hero{
+    background-image: url("/public/assets/cover.jpg");
+    background-repeat: no-repeat;
+    z-index: 999;
+    overflow: hidden;
+}
+.bg-news{
+    background-color: aqua;
+    height: 5rem;
+    width: 5rem;
+}
+/* .bg-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    background-color: beige;
+    padding:.25em .40em ;
+    height: 4rem;
+    border-radius: 5px;
+
+} */

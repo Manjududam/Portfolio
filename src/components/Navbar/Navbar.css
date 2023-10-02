@@ -1,0 +1,9 @@
+.active{
+    background-color: beige;
+}
+.input-details{
+    display: block;
+}
+.input-details:active{
+    display: none;
+}

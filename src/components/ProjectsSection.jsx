@@ -22,13 +22,13 @@ const ProjectsSection = (props) => {
           {Projects.map((item, i) => {
             return (
              <a
-                href="https://github.com/Manjududam"
+                href={item.path}
                 target="_blank"
                 rel="noreferrer"
               >
                 <div
                   key={i}
-                  className="card flex gap-3 mb-2 w-[95%] h-[6rem] mx-auto bg-cardPrimary rounded-lg overflow-ellipsis p-3 bg-[#1c1b23]"
+                  className="card flex gap-3 mb-2 w-[95%] h-[6rem] mx-auto rounded-lg overflow-ellipsis p-3 bg-[#1c1b23]"
                 >
                   <div className="icon p-2 flex items-center h-20 w-20 justify-center rounded-lg text-xs">
                     {item.bgIcon}
@@ -48,6 +48,7 @@ const ProjectsSection = (props) => {
                   </div>
                 </div>
              </a>
+            
             );
           })}
         </div>

@@ -35,7 +35,7 @@ export default function Sidebar() {
               })}
             </li>
             {/*---------------- Projects Section Data-------------- */}
-            <li className="m-4">
+            {/* <li className="m-4">
               <a
                 href="/" target="_blank" rel="noreferrer"
                 className="text-2xl items-center hover:text-white hover:underline "
@@ -57,7 +57,7 @@ export default function Sidebar() {
                   </li>
                 );
               })}
-            </li>
+            </li> */}
              {/*---------------- SocialsApp Section Data-------------- */}
             <li className="m-4">
               <a

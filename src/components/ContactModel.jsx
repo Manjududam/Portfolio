@@ -13,9 +13,9 @@ const ContactModel = (props) => {
   return (
     <>
       {/* <div id="contact"> */}
-        <div id="contact" className="modal-container bg-opacity-50 backdrop-blur-md mx-2 bg-[#1c1b23] border-2 rounded-md border-white mt-6 h-[22rem] w-[22rem] sm:w-[30rem] sm:mx-4rem ml-[-11rem] sm:ml-[-19rem] md:ml-[-23rem] md:w-[30rem] lg:ml-[-32rem] lg:w-[40rem] absolute z-50">
+        <div id="contact" className="modal-container bg-opacity-50 backdrop-blur-md mx-4 bg-[#1c1b23] border-2 rounded-md border-white mt-6 h-[22rem] w-[22rem] sm:w-[30rem] sm:mx-4rem ml-[-11rem] sm:ml-[-19rem] md:ml-[-23rem] md:w-[30rem] lg:ml-[-32rem] lg:w-[40rem] absolute z-50">
           <div className="modal-head">
-            <div className="flex items-center justify-between">
+            <div className="flex items-center justify-between mx-3">
               <h2 className="text-white text-center p-1 text-opacity-20 ">Contact Me</h2>
               <div onClick={props.toggleModel} className="cursor-pointer">
                 <FaIcons.FaTimes size={25} color="grey" />

@@ -95,7 +95,7 @@ const Navbar = () => {
           </div>
         </nav>
         {/*-------------------- SideBar Starts----------------------------- */}
-        <aside className="hidden lg:flex h-screen fixed w-screen sm:w-[260px] z-30 top-20">
+        <aside className="hidden lg:flex h-screen fixed w-screen sm:w-[280px] z-30 top-20">
           <div className="toggle flex flex-col h-[90vh] w-full">
             <div className="flex relative flex-col  bg-[#1c1b23] h-[43rem] z-40 rounded-lg  top-0 left-5 w-full overflow-y-auto scroll-smooth pb-20 text-gray-500">
               <Sidebar />

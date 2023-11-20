@@ -14,18 +14,19 @@ import * as SiIcons from "react-icons/si";
 export const Projects =  [
     {
         title: "NewsApp",
-        path: 'https://github.com/Manjududam',
+        path: 'https://github.com/Manjududam/ClassBased',
         icons: <BiIcons.BiNews color="white" />,
         // icons: <BiIcons.BiNews color='#9fcfc3'/>,
         cName:'nav-text',
         bgClass:'bg-icon',
         bgIcon: <GiIcons.GiNewspaper size={30} color='#9fcfc3' style={{backgroundColor:"", height:"4rem", width:"4rem"}}  />,
         description: 'React.JS, React Hooks, HTML, CSS, BootStrap, JavaScript.',
+        // commit:"<123>",
         
     },
     {
         title: "TextApp",
-        path: 'https://github.com/Manjududam',
+        path: 'https://github.com/Manjududam/TextApp',
         icons: <AiIcons.AiFillFileText color="white" />,
         // icons: <AiIcons.AiFillFileText color='#f07d9f' />,
         cName:'nav-text',
@@ -35,7 +36,7 @@ export const Projects =  [
     },
     {
         title: "Portfolio",
-        path: '/https://github.com/Manjududam',
+        path: 'https://github.com/Manjududam/Portfolio',
         icons: <BsIcons.BsPersonLinesFill color="white"  />,
         // icons: <BsIcons.BsPersonLinesFill color='#13d5f2' />,
         cName:'nav-text',
@@ -46,7 +47,7 @@ export const Projects =  [
     },
     {
         title: "Todo",
-        path: '/https://github.com/Manjududam',
+        path: 'https://github.com/Manjududam/Todo-App',
         icons: <LuIcons.LuListTodo />,
         // icons: <LuIcons.LuListTodo color='#dae3ac' />,
         cName:'nav-text',
@@ -57,7 +58,7 @@ export const Projects =  [
     },
     {
         title: "Microsoft-Clone",
-        path: 'https://github.com/Manjududam',
+        path: 'https://github.com/Manjududam/Microsoft-Clone',
         icons: <FaIcons.FaMicrosoft color="white" />,
         // icons: <FaIcons.FaMicrosoft color='#d91835' />,
         cName:'nav-text',
@@ -68,7 +69,7 @@ export const Projects =  [
     },
     {
         title: "Counter",
-        path: 'https://github.com/Manjududam',
+        path: 'https://github.com/Manjududam/Counter-React-Based',
         icons: <PiIcons.PiArrowsCounterClockwiseFill color="white" />,
         // icons: <PiIcons.PiArrowsCounterClockwiseFill color='white' />,
         cName:'nav-text',
@@ -79,7 +80,7 @@ export const Projects =  [
     },
     {
         title: "Facebook-Clone",
-        path: 'https://github.com/Manjududam',
+        path: 'https://github.com/Manjududam/Facebook-Clone',
         // icons: <FaIcons.FaFacebookF color="white" />,
         icons: <FaIcons.FaFacebookF color='#1d4ed8' />,
         cName:'nav-text',
@@ -90,7 +91,7 @@ export const Projects =  [
     },
     {
         title: "Navbar's",
-        path: 'https://github.com/Manjududam',
+        path: 'https://github.com/Manjududam/aside-navbar',
         icons: <TbIcons.TbLayoutNavbarCollapse color="white"  />,
         // icons: <TbIcons.TbLayoutNavbarCollapse color='#a1ed7e' />,
         cName:'nav-text',

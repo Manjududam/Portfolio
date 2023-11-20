@@ -11,7 +11,7 @@ const HeroSection = () => {
     <>
       <section className=" bg-[#14131a] overflow-auto bg-fixed h-screen">
       {/* flex justify-center md:rounded-ld overflow-hidden md:px-10 py-5 bg-blur backdrop-filter backdrop-blur-md w-full gap-2 md:gap-10 */}
-        <div className="hero flex items-center rounded-lg mt-[5rem] overflow-hidden h-40 md:ml-0 lg:ml-[18rem] bg-no-repeat bg-cover bg-blur">
+        <div className="hero flex items-center rounded-lg mt-[5rem] overflow-hidden h-40 md:ml-0 lg:ml-[20rem] bg-no-repeat bg-cover bg-blur">
           <div className="flex justify-center  md:rounded-ld z-50 overflow-hidden sm:px-10  md:px-5 py-5 bg-blur backdrop-filter backdrop-blur-md w-screen gap-2 md:gap-10">
             <div className="">
               <img

@@ -4,13 +4,13 @@ import * as FaIcons from "react-icons/fa";
 // import * as AiIcons from "react-icons/ai";
 import { TopData } from "./SidebardataList/TopData";
 import { SocailsData } from "./SidebardataList/SocailsData";
-import { Projects } from "./SidebardataList/Projects";
+// import { Projects } from "./SidebardataList/Projects";
 
 export default function Sidebar() {
   return (
     <>
       {/* -----------------------------Sidebar Data------------------------ */}
-      <div className="nav-sidebar h-screen scroll-smooth">
+      <div className="nav-sidebar scroll-smooth">
         <nav className="space-y-5 sm:mx-3 md:mx-0 ">
           <div className="text-zinc-700 top-8 sm:top-3 mx-3 mb-2 fixed right-0 sm:left-[15rem] float-right z-10 gap-1 cursor-pointer lg:hidden hover:text-gray-400">
             <FaIcons.FaTimes size={25} />
